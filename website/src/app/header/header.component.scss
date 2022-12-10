@@ -1,0 +1,43 @@
+.title{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(255, 255, 255, 0.767);
+    text-align: center;
+    font-size: 500%;
+    margin-top: auto;
+
+    
+}
+
+.paragraf{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.719);
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+}
+.header{
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/assets/images/Harley benton.jpg');  
+}
+
+.button-header{
+  display: block;
+  border-radius: 10px;
+  background-color: #db7878;
+  border: none;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+  margin: 5px;
+  opacity: auto;
+  transition: 0.2s;
+}
+.button-header:hover {opacity: 0.6}
